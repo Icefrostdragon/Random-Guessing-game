@@ -45,7 +45,7 @@ func main() {
 	rng := rand.New(rand.NewSource(time.Now().UnixNano()))
 	randomnumber := rng.Intn(endpoint-startingpoint+1) + startingpoint
 
-	fmt.Printf("I have selected a random number between %d and %d\n.", startingpoint, endpoint)
+	fmt.Printf("I have selected a random number between %d and %d\n", startingpoint, endpoint)
 	fmt.Println("Can you guess what it is?")
 
 	attempts := 0
